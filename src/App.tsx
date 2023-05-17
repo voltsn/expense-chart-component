@@ -1,11 +1,7 @@
-import './App.css'
+import ExpensesChart from './components/ExpensesChart';
 import logo from './assets/images/logo.svg'
 import data from './data.json'
 
-type SpendingData = {
-  day: string;
-  amount: number;
-}
 
 function CurrentBalance(): JSX.Element {
   return (
@@ -24,12 +20,12 @@ function CurrentBalance(): JSX.Element {
 function DailySpending(): JSX.Element {
 
   return (
-    <>
+    <div>
       <h2>Spending - Last 7 days</h2>
       <div>
-        Chart
+        <ExpensesChart/>
       </div>
-    </>
+    </div>
   )
 }
 
