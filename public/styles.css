@@ -526,30 +526,31 @@ video {
   display: grid;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.h-full {
+  height: 100%;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.bg-card-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 246 / var(--tw-bg-opacity));
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.bg-cream {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 233 221 / var(--tw-bg-opacity));
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 117 93 / var(--tw-bg-opacity));
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-card-100 {
+  --tw-text-opacity: 1;
+  color: rgb(255 251 246 / var(--tw-text-opacity));
 }
 
-.font-medium {
-  font-weight: 500;
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

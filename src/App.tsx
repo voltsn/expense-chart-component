@@ -5,10 +5,10 @@ import data from './data.json'
 
 function CurrentBalance(): JSX.Element {
   return (
-    <header>
+    <header className="bg-red-200">
       <div>
-        <h1>My balance</h1>
-        <p>$921.48</p>
+        <h1 className='text-white'>My balance</h1>
+        <p className='text-card-100'>$921.48</p>
       </div>
       <div>
         <img src={logo} alt="Logo"/>
@@ -20,7 +20,7 @@ function CurrentBalance(): JSX.Element {
 function DailySpending(): JSX.Element {
 
   return (
-    <div>
+    <div className='bg-card-100'>
       <h2>Spending - Last 7 days</h2>
       <div>
         <ExpensesChart data={data}/>
@@ -32,7 +32,7 @@ function DailySpending(): JSX.Element {
 
 function MonthlyTotalSpending(): JSX.Element {
   return (
-    <div>
+    <div className='bg-card-100'>
       <div>
         <h3>Total this month</h3>
         <p>$478.33</p>
