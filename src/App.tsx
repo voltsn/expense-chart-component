@@ -23,7 +23,7 @@ function DailySpending(): JSX.Element {
     <div>
       <h2>Spending - Last 7 days</h2>
       <div>
-        <ExpensesChart/>
+        <ExpensesChart data={data}/>
       </div>
     </div>
   )
