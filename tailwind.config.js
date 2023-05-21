@@ -8,6 +8,12 @@ export default {
       fontFamily: {
         "sans": ["DM Sans", ...defaultTheme.fontFamily.sans]
       },
+      fontSize: {
+        sm: "0.9375rem",
+        base: "1.125rem",
+        lg: "2rem",
+        xl: "3rem",
+      },
       colors: {
         "brown": {
           400: "#92857A",
