@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 export default {
   content: ["./src/**/*.tsx", "./*.html"],
   theme: {
     extend: {
+      fontFamily: {
+        "sans": ["DM Sans", ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         "brown": {
           400: "#92857A",
