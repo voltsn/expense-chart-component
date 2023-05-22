@@ -31,9 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
-
+- Solution URL: [FrontendMentor - Submission](https://www.frontendmentor.io/solutions/expense-chart-component-build-with-typescriptreact-tailwindcss-vite-N8VxpvVQ2o)
+- Live Site URL: [Deployed on vercel](https://expense-chart-component-omega.vercel.app/)
 ## My process
 
 ### Built with
