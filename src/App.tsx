@@ -22,7 +22,7 @@ function DailySpending(): JSX.Element {
   return (
     <div className='bg-card-100 rounded-t-[0.625rem] pt-6 px-5 sm:pt-8 sm:px-10'>
       <h2 className='font-bold text-[1.5rem] text-brown-900 sm:text-lg mb-[3.25rem]'>Spending - Last 7 days</h2>
-      <div className='pb-6 md:pb-8 border-b-2 border-[#F8E9DD]'>
+      <div className='pb-6 md:pb-8 border-b-2 border-[#F8E9DD] relative'>
         <ExpensesChart data={data}/>
       </div>
     </div>
