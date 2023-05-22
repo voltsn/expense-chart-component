@@ -24,10 +24,10 @@ type dataType = Array<{day: string; amount: number;}>;
 export default function ExpensesChart (prop: { data: dataType }){
     const { data } = prop;
     const currentDay: number = new Date().getDay() - 1;
-    const colors = data.map( (dataPoint: {day: string; amount: number}, index) => {
+    const colors = data.map((_, index) => {
         return index === currentDay ? "#76B5BC" : "#EC755D";
     });
-    const colorsHovered = data.map( (dataPoint: {day: string; amount: number}, index) => {
+    const colorsHovered = data.map( (_,index) => {
         return index === currentDay ? "#B4E0E5" : "#FF9B86";
     });
 
