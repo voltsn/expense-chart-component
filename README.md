@@ -2,7 +2,6 @@
 
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -33,16 +32,19 @@ Users should be able to:
 
 - Solution URL: [FrontendMentor - Submission](https://www.frontendmentor.io/solutions/expense-chart-component-build-with-typescriptreact-tailwindcss-vite-N8VxpvVQ2o)
 - Live Site URL: [Deployed on vercel](https://expense-chart-component-omega.vercel.app/)
+
 ## My process
 
 ### Built with
+
 - Typescript
-- React 
+- React
 - TailwindCSS
 - Vite
 - Mobile-first workflow
 
 ## Author
+
 - Website - [Arno Volts](https://www.arnovolts.be)
 - Frontend Mentor - [voltsn](https://www.frontendmentor.io/profile/voltsn)
 - [Linkedin](https://www.linkedin.com/in/volts/)
